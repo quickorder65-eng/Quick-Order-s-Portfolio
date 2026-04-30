@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickOrder Studio — Premium Web Design for Businesses</title>
+  <meta name="description" content="Premium, fast, conversion-focused websites for serious businesses. Modern UI, mobile-first, built to turn visitors into leads." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Background FX -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+  <div class="floating-shapes" aria-hidden="true">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    <div class="shape shape-5"></div>
+  </div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-hex">⬡</span>
+        <span>QuickOrder<span class="accent">Studio</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact" class="nav-cta-link">Get Started</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-pulse"></span>
+          Available for new projects
+        </div>
+        <h1 class="hero-title reveal">
+          Premium Websites<br />
+          <span class="gradient-text">for Businesses</span>
+        </h1>
+        <p class="hero-subtitle reveal">
+          Fast, modern, responsive sites that turn visitors into leads.<br />
+          Built with pixel-perfect precision for serious businesses.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-glass">Order Website</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-value"><span class="count" data-target="8">0</span>+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat">
+            <span class="stat-value"><span class="count" data-target="100">0</span>%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat">
+            <span class="stat-value"><span class="count" data-target="5">0</span>★</span>
+            <span class="stat-label">Fiverr Rating</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="mockup-scene">
+          <div class="mockup-glow" aria-hidden="true"></div>
+          <div class="mockup-browser" id="mockupBrowser">
+            <div class="browser-bar">
+              <div class="browser-dots">
+                <span class="dot d-red"></span>
+                <span class="dot d-yellow"></span>
+                <span class="dot d-green"></span>
+              </div>
+              <div class="browser-url">quickorder-studio.com</div>
+            </div>
+            <div class="browser-body">
+              <div class="mb-nav"></div>
+              <div class="mb-hero-block">
+                <div class="mb-line lg"></div>
+                <div class="mb-line md"></div>
+                <div class="mb-line sm"></div>
+                <div class="mb-btns">
+                  <div class="mb-btn filled"></div>
+                  <div class="mb-btn outline"></div>
+                </div>
+              </div>
+              <div class="mb-cards">
+                <div class="mb-card">
+                  <div class="mb-card-icon"></div>
+                  <div class="mb-line"></div>
+                  <div class="mb-line sm"></div>
+                </div>
+                <div class="mb-card">
+                  <div class="mb-card-icon"></div>
+                  <div class="mb-line"></div>
+                  <div class="mb-line sm"></div>
+                </div>
+                <div class="mb-card">
+                  <div class="mb-card-icon"></div>
+                  <div class="mb-line"></div>
+                  <div class="mb-line sm"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-float mockup-float-1">
+            <div class="mf-bar"></div>
+            <div class="mf-body">
+              <div class="mf-circle"></div>
+              <div class="mf-line"></div>
+              <div class="mf-line sm"></div>
+            </div>
+          </div>
+          <div class="mockup-float mockup-float-2">
+            <div class="mf-bar"></div>
+            <div class="mf-body">
+              <div class="mf-block"></div>
+              <div class="mf-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-tag">What I Build</span>
+        <h2 class="section-title">Services That <span class="gradient-text">Grow Businesses</span></h2>
+        <p class="section-desc">Every project is crafted with strategy, speed, and stunning design — not just templates.</p>
+      </header>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3>Modern Business Websites</h3>
+          <p>Full-featured company sites with service pages, team sections, and lead capture — built to impress and convert.</p>
+          <div class="tag-row">
+            <span>Multi-page</span><span>SEO-Ready</span><span>CMS-Friendly</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+            </svg>
+          </div>
+          <h3>High-Converting Landing Pages</h3>
+          <p>Single-page powerhouses designed around one goal: turning visitors into customers. Every element earns its place.</p>
+          <div class="tag-row">
+            <span>CRO-Focused</span><span>A/B Ready</span><span>Fast Load</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </div>
+          <h3>Startup / Product Sites</h3>
+          <p>Launch-ready sites for startups and SaaS products. Features, pricing, testimonials — built for investor and customer trust.</p>
+          <div class="tag-row">
+            <span>Investor-Ready</span><span>Product UX</span><span>Scalable</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+            </svg>
+          </div>
+          <h3>Portfolio / Personal Brand Sites</h3>
+          <p>Standout personal sites for creatives, freelancers, and executives. Your brand, elevated and unforgettable.</p>
+          <div class="tag-row">
+            <span>Personal Brand</span><span>Gallery Ready</span><span>Unique Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY US ===================== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-tag">The Difference</span>
+        <h2 class="section-title">Why Clients <span class="gradient-text">Choose Me</span></h2>
+        <p class="section-desc">I don't just write code — I build digital experiences that make businesses look like industry leaders.</p>
+      </header>
+      <div class="features-grid">
+
+        <div class="feature-card reveal">
+          <div class="feat-num">01</div>
+          <div class="feat-icon">✦</div>
+          <h3>Premium UI Design</h3>
+          <p>Every pixel is intentional. Clean layouts, refined typography, and visual hierarchy that commands attention.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feat-num">02</div>
+          <div class="feat-icon">📱</div>
+          <h3>Mobile-First Responsive</h3>
+          <p>60%+ of traffic is mobile. Every site I build looks and performs flawlessly on every screen size.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feat-num">03</div>
+          <div class="feat-icon">⚡</div>
+          <h3>Fast Performance</h3>
+          <p>Optimized code, compressed assets, clean structure. Fast sites rank higher and convert better.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feat-num">04</div>
+          <div class="feat-icon">🎯</div>
+          <h3>Conversion-Focused</h3>
+          <p>Strategic placement of CTAs, trust signals, and visual flow — designed to guide visitors toward action.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feat-num">05</div>
+          <div class="feat-icon">🚀</div>
+          <h3>Reliable Delivery</h3>
+          <p>Clear timelines, regular updates, no-surprise delivery. Professional process from brief to launch.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-tag">Selected Work</span>
+        <h2 class="section-title">Projects That <span class="gradient-text">Speak Louder</span></h2>
+        <p class="section-desc">Real websites, real businesses, real results. Each one crafted to match its industry and audience.</p>
+      </header>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">01</span>
+              <span class="pc-cat">Security</span>
+            </div>
+            <h3 class="pc-title">Cybersecurity Company</h3>
+            <p class="pc-desc">Enterprise-grade dark-themed security firm website. Technical credibility meets polished UI to win corporate clients.</p>
+            <ul class="pc-highlights">
+              <li>🛡️ Trust-first design</li>
+              <li>📊 Service showcase</li>
+              <li>🔒 Professional credibility</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/CyberSecurity/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">02</span>
+              <span class="pc-cat">Healthcare</span>
+            </div>
+            <h3 class="pc-title">Medical Clinic</h3>
+            <p class="pc-desc">Clean, trustworthy clinic site with appointment booking UX. Designed to reduce anxiety and increase bookings.</p>
+            <ul class="pc-highlights">
+              <li>🏥 Patient-centric UX</li>
+              <li>📅 Booking flow</li>
+              <li>💊 Services display</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/Hospital/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">03</span>
+              <span class="pc-cat">F&amp;B</span>
+            </div>
+            <h3 class="pc-title">Coffee Shop</h3>
+            <p class="pc-desc">Warm, visual-forward café site with menu showcase, atmosphere photos, and location features. Drives foot traffic.</p>
+            <ul class="pc-highlights">
+              <li>☕ Menu showcase</li>
+              <li>📍 Location CTA</li>
+              <li>🎨 Brand-first design</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/QuickOrder-Portfolio/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">04</span>
+              <span class="pc-cat">Fitness</span>
+            </div>
+            <h3 class="pc-title">Gym / Fitness Center</h3>
+            <p class="pc-desc">High-energy fitness site with bold typography, class schedules, and membership CTAs. Pumped-up performance design.</p>
+            <ul class="pc-highlights">
+              <li>💪 Bold visual energy</li>
+              <li>🗓️ Class schedule</li>
+              <li>🏆 Membership CTAs</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/Gym/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">05</span>
+              <span class="pc-cat">Healthcare</span>
+            </div>
+            <h3 class="pc-title">Dental Clinic</h3>
+            <p class="pc-desc">Professional dental practice site focused on building trust and driving appointment bookings. Clinical precision in design.</p>
+            <ul class="pc-highlights">
+              <li>🦷 Treatment showcase</li>
+              <li>⭐ Patient reviews</li>
+              <li>📞 Booking conversion</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/Clinic/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">06</span>
+              <span class="pc-cat">Legal</span>
+            </div>
+            <h3 class="pc-title">Law Firm</h3>
+            <p class="pc-desc">Authoritative legal firm site with strong credibility signals, practice areas, and attorney profiles. Commands respect.</p>
+            <ul class="pc-highlights">
+              <li>⚖️ Credibility design</li>
+              <li>📋 Practice areas</li>
+              <li>👔 Attorney profiles</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/Law-Firm/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">07</span>
+              <span class="pc-cat">Business</span>
+            </div>
+            <h3 class="pc-title">Business Consulting</h3>
+            <p class="pc-desc">Executive-level consulting site with case studies, methodology, and team authority. Designed for enterprise deal flow.</p>
+            <ul class="pc-highlights">
+              <li>📈 Case studies</li>
+              <li>🎯 Lead generation</li>
+              <li>💼 Executive appeal</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/Business-Consulting/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-inner">
+            <div class="pc-head">
+              <span class="pc-num">08</span>
+              <span class="pc-cat">Technology</span>
+            </div>
+            <h3 class="pc-title">AI Automation Agency</h3>
+            <p class="pc-desc">Futuristic AI agency site with animated tech aesthetics, automation showcase, and strong conversion architecture.</p>
+            <ul class="pc-highlights">
+              <li>🤖 Futuristic design</li>
+              <li>⚡ AI showcase</li>
+              <li>🔮 Tech-forward UX</li>
+            </ul>
+            <div class="pc-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <a href="https://quickorder65-eng.github.io/Ai-Automation/" target="_blank" rel="noopener" class="pc-btn">
+              View Live
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+          <div class="pc-glow"></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section class="process" id="process">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">From Idea to <span class="gradient-text">Launch</span></h2>
+        <p class="section-desc">A streamlined process that keeps you informed and in control at every step.</p>
+      </header>
+      <div class="process-track">
+
+        <div class="process-step reveal">
+          <div class="ps-num">01</div>
+          <div class="ps-card">
+            <div class="ps-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+              </svg>
+            </div>
+            <h3>Brief &amp; Goals</h3>
+            <p>You share your niche, goals, competitors, and inspiration. I ask the right questions to understand your business inside out.</p>
+          </div>
+        </div>
+
+        <div class="process-arrow reveal" aria-hidden="true"></div>
+
+        <div class="process-step reveal">
+          <div class="ps-num">02</div>
+          <div class="ps-card">
+            <div class="ps-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+              </svg>
+            </div>
+            <h3>Structure &amp; Wireframe</h3>
+            <p>I map out the page structure, section flow, and content hierarchy before touching any design or code.</p>
+          </div>
+        </div>
+
+        <div class="process-arrow reveal" aria-hidden="true"></div>
+
+        <div class="process-step reveal">
+          <div class="ps-num">03</div>
+          <div class="ps-card">
+            <div class="ps-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h3>Design &amp; Build</h3>
+            <p>Full implementation with your brand colors, content, and custom design. Responsive, fast, and pixel-perfect throughout.</p>
+          </div>
+        </div>
+
+        <div class="process-arrow reveal" aria-hidden="true"></div>
+
+        <div class="process-step reveal">
+          <div class="ps-num">04</div>
+          <div class="ps-card">
+            <div class="ps-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+              </svg>
+            </div>
+            <h3>Polish &amp; Launch</h3>
+            <p>Final revisions, performance testing, and handoff. You receive clean files, source code, and deployment guidance.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-box reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <h2>Ready to Stand Out<br /><span class="gradient-text">From the Competition?</span></h2>
+        <p>A professional website isn't a cost — it's your best-performing salesperson, working 24/7.</p>
+        <div class="cta-buttons">
+          <a href="https://www.fiverr.com" target="_blank" rel="noopener" class="btn btn-primary">
+            Order on Fiverr
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://t.me/QuickOrder1939" target="_blank" rel="noopener" class="btn btn-glass">
+            Message on Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <header class="section-header reveal">
+        <span class="section-tag">Let's Work Together</span>
+        <h2 class="section-title">Start Your <span class="gradient-text">Project Today</span></h2>
+        <p class="section-desc">Send me your niche + example sites you like, and I'll propose a homepage structure — free of charge.</p>
+      </header>
+
+      <div class="contact-grid">
+
+        <div class="contact-card reveal">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+              <path d="M9.5 9.5c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5c0 2.5-2.5 3-2.5 4.5"/>
+              <circle cx="12" cy="17.5" r=".75" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Fiverr</h3>
+          <p>Secure ordering, milestone-based payments, and full buyer protection. The safest way to get started.</p>
+          <a href="https://www.fiverr.com" target="_blank" rel="noopener" class="cc-link">
+            Order Securely
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="contact-card contact-featured reveal">
+          <div class="cc-badge">Fastest Response</div>
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21.5 2l-19 10 7 2.5 2.5 7.5L21.5 2z"/>
+            </svg>
+          </div>
+          <h3>Telegram</h3>
+          <p>Direct, fast communication. Discuss your project, share references, and get a free consultation instantly.</p>
+          <a href="https://t.me/QuickOrder1939" target="_blank" rel="noopener" class="cc-link">
+            Message Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <h3>Free Brief</h3>
+          <p>Not sure how to start? Share your niche and budget — I'll propose a custom homepage structure for free.</p>
+          <a href="https://t.me/QuickOrder1939" target="_blank" rel="noopener" class="cc-link">
+            Get Free Proposal
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="contact-tip reveal">
+        <span class="tip-icon">💡</span>
+        <p><strong>Pro tip:</strong> Send your niche + example sites you like, and I'll propose a homepage structure tailored to your business — completely free, no commitment.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-hex">⬡</span>
+            <span>QuickOrder<span class="accent">Studio</span></span>
+          </a>
+          <p>Premium web design for businesses that refuse to look ordinary.</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-socials">
+          <a href="https://t.me/QuickOrder1939" target="_blank" rel="noopener" class="social-pill">Telegram</a>
+          <a href="https://www.fiverr.com" target="_blank" rel="noopener" class="social-pill">Fiverr</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 QuickOrder Studio. All rights reserved.</p>
+        <p>Crafted with precision and passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
